@@ -1,0 +1,2 @@
+rootProject.name = 'ucl-hackathon'
+include 'ucl-hackathon-api', 'ucl-hackathon-ui'

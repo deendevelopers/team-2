@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>UCL Hackathon</title>
+    <base href="/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="app/{{styles}}"></head>
+<body>
+<app-root>Loading</app-root>
+<script src="app/{{runtime}}" type="module"></script>
+<script src="app/{{polyfills}}" type="module"></script>
+<script src="app/{{runtime_es5}}" nomodule></script>
+<script src="app/{{polyfills_es5}}" nomodule></script>
+<script src="app/{{main}}" type="module"></script></body>
+<script src="app/{{main_es5}}" nomodule></script></body>
+</html>

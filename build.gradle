@@ -1,0 +1,6 @@
+group 'com.deendevelopers.saad'
+version '1.0-SNAPSHOT'
+
+defaultTasks ':ucl-hackathon-ui:npmInstall',
+             ':ucl-hackathon-api:clean',
+             ':ucl-hackathon-api:build'
