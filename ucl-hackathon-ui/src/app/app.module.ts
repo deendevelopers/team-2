@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from "@angular/material";
+import {LandingComponent} from "./landing.component";
+import {SearchComponent} from './search.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent, LandingComponent, SearchComponent
   ],
   imports: [
     BrowserModule,
